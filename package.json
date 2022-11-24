@@ -1,0 +1,22 @@
+{
+  "name": "pauper-warchest",
+  "version": "1.0.0",
+  "description": "decklist-treasure-trove",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeaFunk3000/pauper-warchest.git"
+  },
+  "keywords": [
+    "pauper"
+  ],
+  "author": "PeaFUNK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeaFunk3000/pauper-warchest/issues"
+  },
+  "homepage": "https://github.com/PeaFunk3000/pauper-warchest#readme"
+}
