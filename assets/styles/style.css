@@ -47,7 +47,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .hero {
@@ -62,12 +62,19 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    margin-top: 25px;
+    width:25%;
     
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+.float-center  {
+    float: center;
+    max-width: 5%;
 }
 
 section {
@@ -83,17 +90,57 @@ section {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #392a7c;
 }
 
-.boros {
+.archetypes h3  {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffdf76;
+}
+
+.archetype-body {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.archetype-body img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+}
+
+.decks {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 375px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #392a7c;
     color: #ffffff;
+}
+.decks h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.decks h3 {
+    padding-top: 10px;
+    color: #ffdf76;
+    font-size: 20px;
+}
+
+
+.decks h4 {
+    color: #ffdf76;
+    padding: 15px;
+    text-align: center;
+    font-size:  30px;
+    font:bold
+}
+
+.boros {
 }
 
 footer {
